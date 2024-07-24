@@ -1,0 +1,157 @@
+.textone {
+    font-size: 30px;
+    font-family: 'Arial Narrow';
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: bold;
+}
+
+.texttwo {
+    font-size: 20px;
+    font-family: 'Arial Narrow';
+    color: rgba(255, 255, 255, 0.715);
+    font-weight: 800px;
+}
+
+
+.navsecond {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    input{
+        padding: 5px 10px;
+        outline:none;
+        font-size: 20px;
+        border-radius: 3px;
+        border: none;
+    }
+    button{
+        border: none;
+        outline:none;
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+}
+
+.taskBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.621);
+    gap: 30px;
+    button{
+        border: none;
+        background-color: transparent;
+        outline: none;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.club {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 50px;
+    border: 2px rgb(255, 255, 255) solid;
+    gap: 50px;
+}
+
+.title{
+    font-size: 30px;
+    color: white;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.clubpart1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+
+/* .clubpart1,.clubpart2{
+    border: 2px white solid;
+} */
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/05/71/83/47/240_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px rgba(255, 255, 255, 0.262) solid;
+    gap: 10px;
+    padding: 8px 0px;
+    img{
+        height: 200px;
+        width: 180px;
+    }
+    .text{
+        color: white;
+        width: 200px;
+        text-align: center;
+    }
+}
+
+
+.clubpart2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
+    .clubsecond{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        gap: 10px;
+        border: 1px white solid;
+        padding: 15px;
+    }
+    .c{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        border: 1px white solid;
+        padding: 15px;
+    }
+    button{
+        border: none;
+        outline: none;
+        font-size: 15px;
+        padding: 8px;
+        background-color: transparent;
+        color: white;
+        border: 1px grey solid;
+        border-radius: 3px;
+    }
+
+    
+}
